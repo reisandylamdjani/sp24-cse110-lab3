@@ -1,0 +1,9 @@
+main {
+    /*
+        change background of the page to grey
+        set minihum and fallback css variable
+    */
+    background-color: grey;
+    /* height: 100vh;
+    min-height: 100dvh; */
+}
