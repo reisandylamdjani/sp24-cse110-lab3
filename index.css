@@ -15,6 +15,55 @@ h1 {
     position: sticky;
 }
 
+* {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+#meetingdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    margin: auto;
+}
+
+#agenda {
+    display: grid;
+    grid-template-rows: auto;
+
+    margin: 2vh 2vh 2vh 3vh
+}
+
+#image {
+    display:inline;
+    height: 400px;
+    width: 700px;
+    min-width: 60vw;
+    max-width: 100vw;
+
+    padding: 3em 2em 2em 2em
+}
+
+#media {
+    color: color-mix(in srgb, #34c9eb 20%, white);
+    margin-left: 20px;
+}
+
+video {
+    display: block;
+}
+
+audio {
+    padding-top: 5mm;
+    padding-bottom: 5mm;
+    padding-left: 2mm;
+}
+
+summary {
+    color: color(display-p3 1 1 1.5);
+}
+
 form {
     /*
         Border stying, color, width, and radius
@@ -22,8 +71,8 @@ form {
     */
     border-style: dashed;
     border-color: rgb(100,200,300);
-    border-width: 1dvh;
-    border-radius: 3dvh;
+    border-width: 0.2cm;
+    border-radius: 1cm;
 
     padding-top: 5px;
     padding-bottom: 5px;
