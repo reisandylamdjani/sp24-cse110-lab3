@@ -7,3 +7,57 @@ main {
     /* height: 100vh;
     min-height: 100dvh; */
 }
+
+h1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+}
+
+form {
+    /*
+        Border stying, color, width, and radius
+        Set margins, and padding
+    */
+    border-style: dashed;
+    border-color: rgb(100,200,300);
+    border-width: 1dvh;
+    border-radius: 3dvh;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 300px;
+    margin-left: 10px;
+}
+
+
+.firstLast {
+    text-align: left;
+    color: #F21345;
+}
+
+.birthdate {
+    text-decoration:underline;
+}
+
+.checkbox:hover {
+    color: hsl(204, 91%, 50%);
+}
+
+button:active {
+    box-shadow: 2px 2px 5px black;
+}
+
+.bottomText {
+    position: absolute;
+}
+
+fieldset {
+    border-color: transparent;
+}
