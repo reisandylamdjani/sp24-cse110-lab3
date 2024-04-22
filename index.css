@@ -20,6 +20,10 @@ h1 {
     font-style: normal;
 }
 
+a[target] {
+    background-color: yellow;
+}
+
 #meetingdetails {
     display: flex;
     flex-direction: column;
@@ -64,6 +68,38 @@ summary {
     color: color(display-p3 1 1 1.5);
 }
 
+.agenda .agendaList {
+    color:#024757
+}
+
+.unfinishedBus > .unfinishedBusList {
+    color: rgb(59, 3, 29);
+}
+
+div + p {
+    padding-left: 20px;
+    background-color: yellow;
+}
+
+span ~ p {
+    background-color: bisque;
+}
+
+h2:has(+ h3) {
+    color: beige;
+}
+
+li.checkbox:hover{
+    font-size: 20px;
+}
+
+.business {
+    color: white;
+    & .ui {
+        font-size: 100px;
+    }
+}
+
 form {
     /*
         Border stying, color, width, and radius
@@ -86,7 +122,7 @@ form {
 }
 
 
-.firstLast {
+.firstLast, #animals {
     text-align: left;
     color: #F21345;
 }
