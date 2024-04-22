@@ -49,9 +49,19 @@ a[target] {
     padding: 3em 2em 2em 2em
 }
 
-.media {
-    color: color-mix(in srgb, #34c9eb 20%, white);
-    margin-left: 20px;
+li:nth-child(1) {
+    /* color: color-mix(in srgb, #34c9eb 20%, white);
+    margin-left: 20px; */
+
+    background-color: color-mix(in srgb, #34c9eb 0%, white)
+}
+
+li:nth-child(2) {
+    background-color: color-mix(in srgb, #34c9eb 25%, white);
+}
+
+li:nth-child(3) {
+background-color: color-mix(in srgb, #34c9eb 50%, white);
 }
 
 video {
@@ -64,8 +74,8 @@ audio {
     padding-left: 2mm;
 }
 
-summary {
-    color: color(from green srgb r g b / 0.5);
+[data-color="red"] {
+    background-color: color(xyz 45 20 0);
 }
 
 .agenda .agendaList {
