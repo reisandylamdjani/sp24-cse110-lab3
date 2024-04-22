@@ -49,8 +49,8 @@ a[target] {
     padding: 3em 2em 2em 2em
 }
 
-#media {
-    background-color: color-mix(in srgb, #34c9eb 20%, white);
+.media {
+    color: color-mix(in srgb, #34c9eb 20%, white);
     margin-left: 20px;
 }
 
@@ -65,7 +65,7 @@ audio {
 }
 
 summary {
-    color: color(display-p3 1 1 1.5);
+    color: color(from green srgb r g b / 0.5);
 }
 
 .agenda .agendaList {
