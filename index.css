@@ -50,7 +50,7 @@ a[target] {
 }
 
 #media {
-    color: color-mix(in srgb, #34c9eb 20%, white);
+    background-color: color-mix(in srgb, #34c9eb 20%, white);
     margin-left: 20px;
 }
 
@@ -106,7 +106,7 @@ form {
         Set margins, and padding
     */
     border-style: dashed;
-    border-color: rgb(100,200,300);
+    border-color: rgb(100,200,200);
     border-width: 0.2cm;
     border-radius: 1cm;
 
